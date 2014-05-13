@@ -31,4 +31,6 @@ However, I kept telling myself that this would be fine; as long as the visual re
 Finally, though, I started seeing how large the descrepencies could be after two players stood near each other for long periods of time.  I'd start moving, and the test client would launch me halfway across the screen to where it thought I should be, then rocket me back when I stopped moving again.  Unacceptable.
 
 #### Movement III - The Revenge
-_Coming Soon_
+In researching my positioning woes, I realized that my timing-based system would never be as accurate as the position-based system I had originally implemented, and the code for it is just gross.  I was hashing out the issues with one of my cats (a technique I often use in place of "Rubber Duck Debugging" because honestly those damned rubber ducks always seem so judgemental) when the solution hit me.  It all seemed so obvious!  If I used a combination of the two, I could achieve massive gains in accuracy and lose only a small amount of bandwidth.
+
+More details to come soon.
